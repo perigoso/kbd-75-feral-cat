@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "custom-kbd"
+Title "kbd-75-feral-cat"
 Date "2020-08-06"
 Rev "revA"
 Comp "github.com/gimbas"
@@ -389,6 +389,8 @@ Wire Wire Line
 	4550 5300 4550 4250
 Wire Wire Line
 	5350 4250 4550 4250
+Wire Wire Line
+	6150 3950 5850 3950
 Wire Bus Line
 	6300 2600 6300 5050
 Wire Bus Line
