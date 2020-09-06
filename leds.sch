@@ -11,7 +11,7 @@ Comp "github.com/gimbas"
 Comment1 ""
 Comment2 ""
 Comment3 "Design by: Rafael Silva"
-Comment4 "Licensed under CERN-OHL-W v2"
+Comment4 "Licensed under CERN Open Hardware Licence v2 Permissive"
 $EndDescr
 $Comp
 L local_LED:SK6812MINI-E D161

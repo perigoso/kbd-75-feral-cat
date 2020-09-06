@@ -11,7 +11,7 @@ Comp "github.com/gimbas"
 Comment1 ""
 Comment2 ""
 Comment3 "Design by: Rafael Silva"
-Comment4 "Licensed under CERN-OHL-W v2"
+Comment4 "Licensed under CERN Open Hardware Licence v2 Permissive"
 $EndDescr
 $Sheet
 S 7300 2600 1000 1000
@@ -273,22 +273,6 @@ Text Label 5850 4550 0    50   ~ 0
 ROW19
 Wire Wire Line
 	5850 4550 6150 4550
-Text Label 5850 4650 0    50   ~ 0
-ROW20
-Wire Wire Line
-	5850 4650 6150 4650
-Text Label 5850 4750 0    50   ~ 0
-ROW21
-Wire Wire Line
-	5850 4750 6150 4750
-Text Label 5850 4850 0    50   ~ 0
-ROW22
-Wire Wire Line
-	5850 4850 6150 4850
-Text Label 5850 4950 0    50   ~ 0
-ROW23
-Wire Wire Line
-	5850 4950 6150 4950
 Entry Wire Line
 	6150 4150 6250 4050
 Entry Wire Line
@@ -299,14 +283,6 @@ Entry Wire Line
 	6150 4450 6250 4350
 Entry Wire Line
 	6150 4550 6250 4450
-Entry Wire Line
-	6150 4650 6250 4550
-Entry Wire Line
-	6150 4750 6250 4650
-Entry Wire Line
-	6150 4850 6250 4750
-Entry Wire Line
-	6150 4950 6250 4850
 Entry Wire Line
 	6200 5050 6300 4950
 Wire Bus Line
@@ -325,7 +301,7 @@ Connection ~ 4950 3050
 Wire Wire Line
 	4850 2950 4950 2950
 Connection ~ 4950 2950
-Text Label 4800 4250 0    50   ~ 0
+Text Label 4800 3550 0    50   ~ 0
 LED_DAT1
 $Comp
 L Device:C_Small C?
@@ -370,15 +346,6 @@ F 3 "" H 4450 3150 50  0001 C CNN
 	1    4450 3150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5350 3450
-NoConn ~ 5350 3550
-NoConn ~ 5350 3650
-NoConn ~ 5350 3750
-NoConn ~ 5350 3850
-NoConn ~ 5350 3950
-NoConn ~ 5350 4050
-NoConn ~ 5350 4150
-NoConn ~ 5350 4350
 Wire Wire Line
 	7300 3950 6800 3950
 Wire Wire Line
@@ -386,15 +353,88 @@ Wire Wire Line
 Wire Wire Line
 	6800 5300 4550 5300
 Wire Wire Line
-	4550 5300 4550 4250
-Wire Wire Line
-	5350 4250 4550 4250
+	5350 3550 4550 3550
 Wire Wire Line
 	6150 3950 5850 3950
+Entry Wire Line
+	6150 4650 6250 4550
+Entry Wire Line
+	6150 4750 6250 4650
+Entry Wire Line
+	6150 4850 6250 4750
+Entry Wire Line
+	6150 4950 6250 4850
+Wire Wire Line
+	5850 4950 6150 4950
+Text Label 5850 4950 0    50   ~ 0
+ROW23
+Wire Wire Line
+	5850 4850 6150 4850
+Text Label 5850 4850 0    50   ~ 0
+ROW22
+Wire Wire Line
+	5850 4750 6150 4750
+Text Label 5850 4750 0    50   ~ 0
+ROW21
+Wire Wire Line
+	5850 4650 6150 4650
+Text Label 5850 4650 0    50   ~ 0
+ROW20
+Text Label 5350 4350 2    50   ~ 0
+COL8
+Text Label 5350 4250 2    50   ~ 0
+COL9
+Text Label 5350 4150 2    50   ~ 0
+COL10
+Text Label 5350 4050 2    50   ~ 0
+COL11
+Text Label 5350 3950 2    50   ~ 0
+COL12
+Text Label 5350 3850 2    50   ~ 0
+COL13
+Text Label 5350 3750 2    50   ~ 0
+COL14
+Text Label 5350 3650 2    50   ~ 0
+COL15
+NoConn ~ 5350 3450
+Wire Wire Line
+	4550 3550 4550 5300
+Entry Wire Line
+	5050 4350 4950 4450
+Wire Wire Line
+	5350 4350 5050 4350
+Entry Wire Line
+	5050 4250 4950 4350
+Wire Wire Line
+	5350 4250 5050 4250
+Entry Wire Line
+	5050 4150 4950 4250
+Wire Wire Line
+	5350 4150 5050 4150
+Entry Wire Line
+	5050 4050 4950 4150
+Wire Wire Line
+	5350 4050 5050 4050
+Entry Wire Line
+	5050 3950 4950 4050
+Wire Wire Line
+	5350 3950 5050 3950
+Entry Wire Line
+	5050 3850 4950 3950
+Wire Wire Line
+	5350 3850 5050 3850
+Entry Wire Line
+	5050 3750 4950 3850
+Wire Wire Line
+	5350 3750 5050 3750
+Entry Wire Line
+	5050 3650 4950 3750
+Wire Wire Line
+	5350 3650 5050 3650
 Wire Bus Line
 	6300 2600 6300 5050
 Wire Bus Line
-	4950 4550 4950 5050
+	4950 3750 4950 5050
 Wire Bus Line
 	6250 2550 6250 4850
 $EndSCHEMATC
